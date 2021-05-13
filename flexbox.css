@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{
+  margin: 0 ;
+	
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+	
+}
+
+.card-01{
+  background: #03D29F;
+  position: relative;
+  flex: 1;
+  max-width: 300px;
+  height: 320px;
+  margin: 0 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);	
+}
+.card-02{
+  background: white;
+  position: relative;
+  flex: 1;
+  max-width: 300px;
+  height: 273px;
+  margin: 0 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);	
+}
+.card-03{
+  background: white;
+  position: relative;
+  flex: 1;
+  max-width: 1240px;
+  height: 330px;
+  margin: 0 50px;
+  border-radius: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+}
+@media (max-width:800px){
+  .card-01{
+    flex: 100%;
+    max-width: 600px;
+  }
+
+  .card-02{
+    flex: 100%;
+    max-width: 600px;
+  }
+
+  .card-03{
+    flex: 100%;
+    max-width: 600px;
+  }
+}
